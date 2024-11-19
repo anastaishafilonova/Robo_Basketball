@@ -135,7 +135,7 @@
     <geom name="floor" type="plane" pos="0 0 -0.285" size="5 5 0.001" material="groundplane"/>
     <body name="ball">
       <freejoint/>
-        <geom type="sphere" pos="-0.16 -0.038 0.14" mass="0.06" size="0.01" friction="0.01 0.005 0.001" rgba="1 0 0 1"/>
+        <geom name="ball" type="sphere" pos="-0.16 -0.038 0.14" mass="0.06" size="0.01" friction="0.01 0.005 0.001" rgba="1 0 0 1"/>
     </body>
     <body name="torso_1" >
       <inertial pos="-0.0052174000000000005 0.0663892 0.0492326" quat="0.00163034 0.736044 -0.00202676 0.676928" mass="0.697847" diaginertia="0.00122454 0.000835755 0.000651356"/>
