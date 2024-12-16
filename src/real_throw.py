@@ -93,7 +93,7 @@ class Throw:
         #Distance of throw
         self.distance = distance
 
-        #Coeffs of line L = k1*w^6 + k2*w^4 + k3*w^2
+        #Coeffs of line L = k1*w^6 + k2*w^4 + k3*w^2 (на самом деле, здесь не w^2, а w и корни нужно искать немного по-другому)
         self.k1 = -0.000432400716
         self.k2 = 0.0244057355
         self.k3 = 0.892415612
